@@ -10,11 +10,10 @@ class Progression:
         s = (self.n * (2 * self.a + self.b * (self.n - 1))) / 2
         return s
 
-
 def main():
     progression = Progression(10)
     print('Сума перших 10 елементів: {summa}'.format(summa=progression.summa()))
-
+    print('Hello! =)')
 
 if __name__ == '__main__':
     main()
